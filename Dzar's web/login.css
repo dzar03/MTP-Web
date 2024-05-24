@@ -1,0 +1,95 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(../Image/login.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.box{
+    backdrop-filter: blur(8px);
+    margin: 10% 35% 0 35%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+form{
+    width: 350px;
+    height: 406px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+}
+form > h3{
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 80px;
+    margin-bottom: 39px;
+    color: rgb(255, 174, 12);
+}
+form > p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 36px;
+} 
+.idtype{
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+    padding: 12px 0 13px 18px;
+    border: 0;
+    background-color: rgb(251, 166, 75);
+    margin-bottom: 12px;
+    color: whitesmoke;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
+::placeholder{
+    color: whitesmoke;
+}
+.remember{
+    width: 18px;
+    height: 17px;
+    border-radius: 5px;
+    float: left;
+    margin-left: 25px;
+}
+form > div > label{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17.07px;
+    float: left;
+    color: rgb(255, 174, 12);
+}
+form > div > a{
+    text-decoration: none;
+    color: rgb(255, 174, 12);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17.07px;
+    float: right;
+    margin-right: 25px;
+}
+button{
+    width: 300;
+    height: 45px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: whitesmoke;
+    padding: 13px 128px 12px;
+    background-color: rgb(251, 166, 75);
+    border: 0;
+    border-radius: 10px;
+    margin-top: 24px;
+}
+button:hover{
+    background-color: rgb(255, 148, 34);
+}
