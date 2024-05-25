@@ -11,7 +11,7 @@
         font-family: Arial, Helvetica, sans-serif;
     }
     .bg_image{
-        background-image: url(../Image/bannerlist.jpg);
+        background-image: url(bannerlist.jpg);
         height: 125px;
         background-position: center;
         background-repeat: no-repeat;
